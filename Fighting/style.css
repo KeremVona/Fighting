@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(35, 29, 69);
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+}
+
+#ourcards {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-template-rows: 110px;
+    padding: 10px;
+    column-gap: 4px;
+    margin-top: 250px;
+}
+
+#theircards {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-template-rows: 110px;
+    padding: 10px;
+    column-gap: 4px;
+}
+
+.card {
+    text-align: center;
+    background-color: black;
+    border: 0.5px solid black;
+    padding: 4px;
+}
+
+.usebutton {
+    border: none;
+    cursor: pointer;
+}
+
+.attackbutton {
+    border: none;
+    cursor: pointer;
+}
+
+#army3 {
+    margin-left: 1000px;
+}
+
+#displaypower {
+    margin-left: 250px;
+}
