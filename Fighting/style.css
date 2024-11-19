@@ -7,20 +7,22 @@ body {
 #ourcards {
     background-color: blue;
     display: grid;
-    grid-template-columns: 90px 90px 90px 90px;
-    grid-template-rows: 110px;
+    grid-template-columns: 190px 190px 190px 190px;
+    grid-template-rows: 220px;
     padding: 10px;
-    column-gap: 4px;
-    margin-top: 250px;
+    column-gap: 40px;
+    margin-top: 150px;
+    justify-content: center;
 }
 
 #theircards {
     background-color: blue;
     display: grid;
-    grid-template-columns: 90px 90px 90px 90px;
-    grid-template-rows: 110px;
+    grid-template-columns: 190px 190px 190px 190px;
+    grid-template-rows: 220px;
     padding: 10px;
-    column-gap: 4px;
+    column-gap: 40px;
+    justify-content: center;
 }
 
 .card {
@@ -31,19 +33,30 @@ body {
 }
 
 .usebutton {
-    border: none;
-    cursor: pointer;
-}
 
-.attackbutton {
-    border: none;
     cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: blue;
+}
+.attackbutton {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: blue;
 }
 
 #army3 {
-    margin-left: 1000px;
+    margin-left: 100px;
 }
 
 #displaypower {
     margin-left: 250px;
+}
+
+.speciality {
+    font-size: 20px;
+    margin-bottom: 36px;
 }
