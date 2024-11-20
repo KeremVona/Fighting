@@ -46,6 +46,7 @@ body {
     height: 40px;
     border-radius: 20px;
     border-color: blue;
+    display: inline-block;
 }
 
 #army3 {
@@ -59,4 +60,15 @@ body {
 .speciality {
     font-size: 20px;
     margin-bottom: 36px;
+}
+
+.usebutton:hover {
+    background-color: rgb(79, 79, 171);
+    transition: 0.4s;
+}
+
+.attacksvg {
+    width: 20px;
+    height: 20px;
+    padding: 0;
 }
